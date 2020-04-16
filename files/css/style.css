@@ -8,32 +8,47 @@ body{
 	margin-top: 13px;
 	margin-right: -80px
 }*/
-.navbar{
+/*.navbar{
     position: relative;
     left: 120px;
+}*/
+*{
+	    box-sizing: border-box;
+
 }
+.nav-link:hover{
+	color: #007bff;
+}
+.header-flex{
+	display: flex;
+	justify-content: flex-end;
+	margin-right: -90px;
+	padding-top: 20px;
+
+}
+
 .title1{
 	font-size: 16px;
 	line-height: 18px;
 	color: #505050;
 	font-weight: 400;
 	font-family: Helvetica;
+	margin-left: 22px;
+    margin-top: 15px;
 }
 .title2{
 	font-size: 16px;
 	line-height: 18px;
 	font-weight: 400;
 	font-family: Helvetica;
-	text-decoration: none;
+	margin-top: -30px;
 }
 /*.p-title2{
 	padding-right: 10px;
 	margin-top: -12px;
 	
 }*/
-.btn-signin{
 
-}
 .btn-sign-in{
 	width: 130px;
 	height: 45px;
@@ -45,6 +60,12 @@ body{
 	border-color: #000000;
 	box-sizing: content-box;
 
+}
+.btn-sign-in:hover{
+	color: #ffffff;
+}
+.fa-lock:hover{
+	color: #ffffff;
 }
 .span-signin{
 	    padding-left: 10px;
