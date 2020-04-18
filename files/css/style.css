@@ -82,7 +82,7 @@ a{
 	padding-left: 10px;
 }
 .imgetitle{
-	padding-left: 445px;
+	padding-left: 465px;
 	padding-top: 50px;
 }
 .titleim{
@@ -137,4 +137,65 @@ a{
     margin-top: -30px;
     padding-left: 273px;
     font-size: 18px;
+}
+.labelemail , .labelphon ,.labelpass {
+	color: #3b4c56;
+	margin-top: 50px;
+    margin-left: 70px;
+
+}
+.email , .phon , .password{
+	margin-left: 70px;
+	width: 510px;
+}
+.underphon{
+	font-size: 16px;
+    margin-left: 70px;
+    color: #444444;
+}
+.password{
+	display: inline-block;
+}
+.fa-unlock{
+	color: #cdcdd2
+}
+.btnpass{
+	margin-left: -50px;
+}
+.btn-creat{
+	background-color: #0077c5;
+	color: #ffffff;
+	border-radius: 4px;
+	border: 1px ;
+	border-style: solid;
+	border-color: #000000;
+	box-sizing: content-box;
+    width: 475px;
+    margin-left: 70px;
+    margin-top: 50px;
+
+}
+.btn-creat:hover{
+	background-color: #0077c5;
+	color: #ffffff;
+}
+.fa-lock{
+	margin-right: 10px;
+}
+.discriptcreat{
+	margin-top: 100px
+
+}
+.discript-creat{
+	font-size: 16px;
+    text-align: center;
+    color: #757575;
+}
+.link-creat{
+
+	text-align: center;
+}
+.creatlink:hover{
+	text-decoration: none;
+	color: #007bff;
 }
