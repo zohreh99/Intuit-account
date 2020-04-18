@@ -55,7 +55,7 @@ a{
 	line-height: 18px;
 	font-weight: 400;
 	font-family: Helvetica;
-	margin-top:-28px ;
+	margin-top:-1.2rem ;
     margin-left:2px ;
 }
 
@@ -134,7 +134,7 @@ a{
 	color: #007bff;
 }
 .link-form{
-    margin-top: -30px;
+    margin-top: -1.3rem;
     padding-left: 273px;
     font-size: 18px;
 }
@@ -182,20 +182,60 @@ a{
 .fa-lock{
 	margin-right: 10px;
 }
-.discriptcreat{
-	margin-top: 100px
+.discript-creat1{
+	font-size: 16px;
+    color: #757575;
+}
+.termlink , .privacylink{
+	font-size: 16px;
+	margin-left: .2rem;
+}
+.termlink:hover , .privacylink:hover{
+	text-decoration: none;
+	color: #007bff;
+}
+.discript-creat2{
+	font-size: 16px;
+    color: #757575;
+    margin-left: .2rem;
 
 }
-.discript-creat{
+
+/*.link-creat{
+	text-align: center;
+}*/
+/*.termlink:hover{
+	text-decoration: none;
+	color: #007bff;
+}
+	*/
+/*.creatlink{
+	padding-left: 7rem;
+    position: relative;
+    top: -1.1rem;
+    font-size: 16px;
+}
+
+.discript-creat2{
 	font-size: 16px;
     text-align: center;
     color: #757575;
 }
-.link-creat{
 
-	text-align: center;
+.discriptcreat2{
+	position: relative;
+    top: -1.1rem;
+    padding-right: 1.2rem;
 }
-.creatlink:hover{
-	text-decoration: none;
-	color: #007bff;
+*/
+.discriptcreat2-flex{
+	display: flex;
+    margin-left: 6.5rem;
+}
+.discriptcreat1-flex{
+    top: 1rem;
+    position: relative;
+    margin-top: 2rem;
+    margin-left: 8rem;
+
 }
