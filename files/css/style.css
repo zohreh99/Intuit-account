@@ -29,13 +29,12 @@ a{
 .header-flex{
 	display: flex;
 	justify-content: flex-end;
-	margin-right: -60px;
-	padding-top: 20px;
-	flex-direction: row;
-
+	margin-right: -3rem;
+	margin-top: 1rem;
+	
 }
 .item1{
-	margin-top: -2px;
+	margin-top: -.2rem;
 }
 .title1{
 	font-size: 18px;
@@ -43,8 +42,8 @@ a{
 	color: #505050;
 	font-weight: 400;
 	font-family: Helvetica;
-	margin-top: 8px;
-	margin-left: 28px;
+	margin-top: .4rem;
+	margin-left: 1.2rem;
     
 
 }
@@ -56,7 +55,7 @@ a{
 	font-weight: 400;
 	font-family: Helvetica;
 	margin-top:-1.2rem ;
-    margin-left:2px ;
+    margin-left: .2rem ;
 }
 
 
@@ -106,10 +105,10 @@ a{
 	margin-left: 20px;
 }
 .myform{
-	width: 650px;
+	width: 640px;
     height: auto;
     margin-top: 40px;
-    margin-left: 230px;
+    margin-left: 235px;
 	background-color: #ffffff;
 	border-radius: 4px;
 	border: 1px ;
@@ -146,7 +145,7 @@ a{
 }
 .email , .phon , .password{
 	margin-left: 70px;
-	width: 510px;
+	width: 500px;
 }
 .underphon{
 	font-size: 16px;
@@ -170,7 +169,7 @@ a{
 	border-style: solid;
 	border-color: #000000;
 	box-sizing: content-box;
-    width: 475px;
+    width: 465px;
     margin-left: 70px;
     margin-top: 50px;
 
@@ -182,60 +181,110 @@ a{
 .fa-lock{
 	margin-right: 10px;
 }
+
+.link{
+	font-size: 16px;
+	
+
+}
+.link:hover{
+	text-decoration: none;
+	color: #007bff;
+}
 .discript-creat1{
 	font-size: 16px;
-    color: #757575;
+    color: #757575
 }
-.termlink , .privacylink{
+.discriptterm{
 	font-size: 16px;
-	margin-left: .2rem;
+    color: #757575
+    
 }
-.termlink:hover , .privacylink:hover{
-	text-decoration: none;
-	color: #007bff;
+.termlink{
+	margin-right: .15rem;
 }
-.discript-creat2{
+.privacylink{
+	margin-left: .15rem;
+}
+.discriptprivacy{
 	font-size: 16px;
-    color: #757575;
-    margin-left: .2rem;
-
+    color: #757575
 }
 
-/*.link-creat{
-	text-align: center;
-}*/
-/*.termlink:hover{
-	text-decoration: none;
-	color: #007bff;
-}
-	*/
-/*.creatlink{
-	padding-left: 7rem;
-    position: relative;
-    top: -1.1rem;
-    font-size: 16px;
-}
 
-.discript-creat2{
-	font-size: 16px;
-    text-align: center;
-    color: #757575;
+.discriptcreat1-flex{
+	display: flex;
+	justify-content: center;
+	margin-top: 3rem;
 }
-
-.discriptcreat2{
-	position: relative;
-    top: -1.1rem;
-    padding-right: 1.2rem;
-}
-*/
 .discriptcreat2-flex{
 	display: flex;
-    margin-left: 6.5rem;
+	justify-content: center;
+	margin-top: -1rem;
+ }
+ .statement-flex{
+	display: flex;
+	justify-content: center;
+	margin-top: -1rem;
 }
-.discriptcreat1-flex{
-    top: 1rem;
-    position: relative;
-    margin-top: 2rem;
-    margin-left: 8rem;
 
+.policy-flex{
+	display: flex;
+	justify-content: center;
+	background-color: #eceef1;
+	padding-top: 1.5rem;
+	padding-bottom: .5rem;
+}
+.invi{
+	margin-right: .2rem;
+}
+.termof{
+	margin-left: .2rem;
+}
+.underform1-flex{
+	display: flex;
+	justify-content: center;
+    margin-top: 2rem;
+    margin-bottom: .5rem;
+
+}
+.link1 , .link1:hover{
+	color: #505050;
+	font-size: 18px;
+
+}
+.leagllink{
+	margin-right: 1rem;
+}
+.securitylink{
+	margin-left: 1rem;
+}
+.underform2-flex1{
+	display: flex;
+	justify-content: center;
+	
+}
+.underform2-flex2{
+	display: flex;
+	justify-content: center;
+}
+.underform{
+	color: #505050;
+	font-size: 18px;
+	line-height: .1rem;
+}
+.underformbtn-flex-fix{
+	/*position: fixed;*/
+	display: flex;
+	justify-content: flex-end;
+	/*justify-content: flex-end;*/
+	/*z-index: 1;*/
+}
+.btn-fix , .btn-fix:hover {
+	color: #ffffff;
+	background-color: #6b6c72;
+	position: fixed;
+ 	bottom: 0;
+  	height: 60px;
+    right: 0;
 }
