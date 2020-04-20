@@ -245,7 +245,7 @@ a{
 	display: flex;
 	justify-content: center;
     margin-top: 2rem;
-    margin-bottom: .5rem;
+    margin-bottom: 2rem;
 
 }
 .link1 , .link1:hover{
@@ -262,21 +262,23 @@ a{
 .underform2-flex1{
 	display: flex;
 	justify-content: center;
+	margin-top: -2.3rem;
 	
 }
 .underform2-flex2{
 	display: flex;
 	justify-content: center;
+	margin-top: .2.3rem;
 }
 .underform{
 	color: #505050;
 	font-size: 18px;
 	line-height: .1rem;
+	padding-bottom: .5rem;
 }
 .underformbtn-flex-fix{
 	display: flex;
 	justify-content: flex-end;
-	padding-bottom: 1rem;
 
 }
 .btn-fix , .btn-fix:hover {
