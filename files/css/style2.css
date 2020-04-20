@@ -1,0 +1,12 @@
+.header-flex{
+	visibility:hidden;
+}
+.img-responsive{
+	height: auto;
+	display:inline-block;
+
+	}
+body{
+	width: 100%;
+	height: auto;
+}
