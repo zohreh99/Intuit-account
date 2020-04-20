@@ -1,8 +1,9 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
 	<head>
+
 		<meta charset="UTF-8">
-		<meta http-equiv="X-UA-Compatible" content="ie=edge" />
+		<!-- <meta http-equiv="X-UA-Compatible" content="ie=edge" /> -->
 		<meta name="author" content="Zohreh Asadian">
 		<meta name="keywords" content="HTML, CSS, JavaScript, inputform">
 		<meta name="description" content="input form">
@@ -10,11 +11,11 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1.0">
 		<script src="files/js/jquery.min.js"></script>
 	    <script src="files/js/bootstrap.min.js"></script>
-	    <script src="files/js/popper.js"></script>
 	    <script src="https://kit.fontawesome.com/774f0ae2db.js" crossorigin="anonymous"></script>
+	    <script src="files/js/popper.js"></script>
 	    <link rel="stylesheet" href="files/css/bootstrap.min.css">
 	    <link rel="stylesheet" href="files/css/style.css">
-	    <!-- <link rel="shortcut icon" href="files/favicon/favicon.ico"> -->
+		<link href="files/css/normalize.css" rel="stylesheet">
 		<title>Intuit Account -Sign Up</title>
 	</head>
 
@@ -22,24 +23,130 @@
 		<header>
 			<div class="myheader">
 				<div class="container">
-					<!-- <div class="right-side-flex">
-						<div class="title">
-							<p class="title1">Already have an Intuit account?</p>
-							<div class="p-title2">
-								<a id="forgetid" href=""><p class="title2">I forgot my User ID or Password</p></a>
-							</div>
+					<div class="header-flex">
+						<div class="item1">
+							<p class="title1 ">Already have an Intuit account?</p>
+							<a class="nav-link" href=""><p class="title2">I forgot my User ID or Password</p></a>
 						</div>
-						<div class="btn-signin">
-							<a href=""><button id="btn-sign-in" class="btn btn-sign-in">
-								<div class="lockicon">
-								<i class="fas fa-lock fa-xs"></i>Sign In</button>
-								</div>
-							</a>	
+						<div class="item2">
+							<button class="btn-sign-in btn"><i class="fas fa-lock fa-xs"></i><span class="span-signin">Sign In</span></button>
 						</div>
-					</div> -->
-					<nav class="navbar"></nav>
+					</div>
+					<div class="titlesec">
+						<div class="row">
+							 <div class="imgetitle col-xs-12 col-sm-12 col-md-12 col-lg-12">
+							 	<a href=""><img class="img-fluid" src="files/img/imgtitle.jpg" alt="">
+							 	</a>
+							 </div>
+						</div>
+						<div class="imtitle-flex">
+							<a class="im" href="">
+							<img class="img-fluid" src="files/img/im1.jpg" alt=""></a>
+							<a class="titleim" href="">mint</a>
+							
+							<a class="im" href="">
+							<img class="img-fluid" src="files/img/im2.jpg" alt=""></a>
+							<a class="titleim" href="">quickbooks</a>
+
+							<a class="im" href="">
+							<img class="img-fluid" src="files/img/im3.jpg" alt=""></a>
+							<a class="titleim" href="">turbotax</a>
+						</div>
+					</div>
 				</div>
 			</div>
 		</header>
+		<section>
+			<div class="sec">
+				<div class="container">
+					<div class="myform">
+						<h1 class="titleform">Create an Intuit account</h1>
+						<p class="undertitleform">One account for everything Intuit, including Mint.</p>
+						<div class="link-form">
+							<a class="linkform" href="">Learn more</a>
+						</div>
+						<div class="form">
+							<div class="row">
+								<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+									<label class="labelemail" for="labelemail">Email address</label>
+								</div>
+							</div>
+							<div class="row">
+								<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+									<input type="text" class="form-control email" name="email">
+								</div>
+							</div>
+							<div class="row">
+								<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+									<label class="labelphon" for="labelphon">Phone (recommended)</label>
+								</div>
+							</div>
+							<div class="row">
+								<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+									<input type="text" class="form-control phon" name="phon">
+									<p class="underphon">Standard call, messaging or data rates may apply.</p>
+								</div>
+							</div>
+							<div class="row">
+								<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+									<label class="labelpass" for="labelpass">Password</label>
+								</div>
+							</div>
+						</div>
+						<div class="row">
+								<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+									<input type="password" class="form-control password" name="password"><button class="btn btnpass"><i class="fas fa-unlock" ></i></button>
+								</div>
+						</div>
+						<div class="row">
+								<div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+									<div class="creatacount">
+										<button class="btn-creat btn" type="submit"><i class="fas fa-lock fa-xs"></i><span class="creat">Creat Acount</span></button>
+									</div>
+								</div>
+						</div>
+						<div class="discriptcreat1-flex">
+							<p class="discript-creat1"><i>By clicking Create account, you agree to our</i></p>
+						</div>
+						<div class="discriptcreat2-flex">
+							<p class="discriptterm"><i><a class="link termlink" href="">Terms</a>and have read and acknowledge our</i></p>
+							<p class="discriptprivacy"><i><a class="link privacylink" href="">Privacy</a></i></p>
+						</div>	
+						<div class="statement-flex">
+							<p class="discriptterm"><i><a class="link" href="">Statement.</a>
+						</div>
+						<div class="policy-flex">
+							<p class="discript-creat1 invi"><i>Invisible reCAPTCHA by Google</i></p>
+							<p class="discriptterm"><i><a class="link" href="">Privacy Policy</a></i></p>
+							<p class="discript-creat1 termof"><i>and</i></p>
+							<p class="discriptterm termof"><i><a class="link" href="">Terms Of Use</a></i>.</p>
+						</div>
+					</div>
+					<div class="okk">	
+					<div class="underform1-flex">
+						<div class="leagllink">
+							<p class="legal" ><a class="link1" href="">Legal</a></p>
+						</div>
+						<div class="privacylink">
+							<p class="privacy" ><a class="link1" href="">Privacy</a></p>
+						</div>
+						<div class="securitylink">
+							<p class="security" ><a class="link1" href="">Security</a></p>
+						</div>
+					</div>
+					<div class="underform2-flex1">
+						<p class="underform">© 2020 Intuit, Inc. All rights reserved. Intuit, QuickBooks, QB, TurboTax, ProConnect and Mint are registered trademarks of Intuit Inc.</p>
+					</div>
+					<div class="underform2-flex2">
+						<p class="underform">Terms and conditions, features, support, pricing, and service options subject to change without notice.</p>
+					</div>
+				</div>
+					<div class="underformbtn-flex-fix">
+						<button class="btn-fix btn" type="submit"><span class="fix">Privacy Setting</span></button>
+
+					</div>
+				</div>
+			</div>
+		</section>
 	</body>
 </html>
